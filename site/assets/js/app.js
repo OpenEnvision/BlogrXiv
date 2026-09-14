@@ -3449,6 +3449,22 @@ class BlogXiv {
     getRecentCommunityBlogAdditions() {
         return [
             {
+                id: 'stossignsgd-low-precision-llm-optimizer',
+                title: 'StoSignSGD: Sign-based Low-precision LLM Optimizer',
+                excerpt: 'StoSignSGD injects structured stochasticity into sign updates to remove deterministic bias and recover optimal nonsmooth convergence, while avoiding fragile second-moment normalization for stable FP8 and FP4 language-model training.',
+                author: 'Dingzhi Yu, Rui Pan, Yuxing Liu, Difan Zou, Tong Zhang',
+                authorAvatar: 'https://www.google.com/s2/favicons?domain=lumeilevel.github.io&sz=128',
+                category: 'Efficient AI',
+                tags: ['Low-Precision Training', 'LLM Optimizer', 'FP4', 'FP8', 'SignSGD'],
+                readTime: '9 min read',
+                publishDate: '2026-04-17',
+                sourceName: 'StoSignSGD Project',
+                url: 'https://lumeilevel.github.io/StoSignSGD/',
+                coverImage: 'assets/img/covers/real/stossignsgd.png',
+                coverAlt: 'StoSignSGD sign-based low-precision LLM optimizer',
+                coverFit: 'contain'
+            },
+            {
                 id: 'kyle-jeong-how-astras-computer-use-works',
                 title: 'How Does Astra’s Computer Use Actually Work?',
                 excerpt: 'Kyle Jeong examines GPT-6 Astra’s computer-use stack, from accessibility-tree observations and persistent Node REPL execution to Playwright, PyAutoGUI, state verification, and guardian checks for risky actions.',
