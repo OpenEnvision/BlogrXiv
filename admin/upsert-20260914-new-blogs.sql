@@ -1,0 +1,116 @@
+-- Add five recent AI research and model-release articles to Supabase public.blogs.
+begin;
+
+insert into public.blogs (
+  id, title, excerpt, author, author_avatar, category, tags, read_time,
+  publish_date, source_name, url, cover_image, cover_alt, cover_fit, status, featured
+)
+values
+  (
+    'kyle-jeong-how-astras-computer-use-works',
+    'How Does Astra’s Computer Use Actually Work?',
+    'Kyle Jeong examines GPT-6 Astra’s computer-use stack, from accessibility-tree observations and persistent Node REPL execution to Playwright, PyAutoGUI, state verification, and guardian checks for risky actions.',
+    'Kyle Jeong',
+    'https://www.google.com/s2/favicons?domain=kylejeong.com&sz=128',
+    'AI Agents',
+    array['Computer Use', 'GPT-6 Astra', 'Accessibility Tree', 'Browser Automation', 'Agent Safety'],
+    '8 min read',
+    '2026-09-07',
+    'Kyle Jeong',
+    'https://kylejeong.com/blog/how-astras-computer-use-works',
+    'assets/img/covers/real/how-astras-computer-use-works.png',
+    'How Astra’s computer use works article cover',
+    'cover',
+    'published',
+    false
+  ),
+  (
+    'robocurve-gpt-6-astra-robotic-manipulation',
+    'GPT-6 Astra on Robotic Manipulation',
+    'Robocurve reports a third-party evaluation of GPT-6 Astra on two dual-arm manipulation tasks, finding strong gains on placing a block in a bowl but little progress on precise puzzle-piece insertion.',
+    'Robocurve',
+    'https://www.google.com/s2/favicons?domain=robocurve.org&sz=128',
+    'AI Agents',
+    array['GPT-6 Astra', 'Robotic Manipulation', 'Embodied AI', 'Robot Evaluation', 'Computer Use'],
+    '6 min read',
+    '2026-09-04',
+    'Robocurve',
+    'https://openai.robocurve.org/gpt-6-astra/',
+    'assets/img/covers/real/robocurve.org-gpt-6-astra.png',
+    'GPT-6 Astra robotic manipulation evaluation cover',
+    'cover',
+    'published',
+    false
+  ),
+  (
+    'openai-chatgpt-images-2-5',
+    'Introducing ChatGPT Images 2.5',
+    'OpenAI introduces ChatGPT Images 2.5 with faster generation, sharper detail, more natural lighting and textures, stronger instruction following, and more precise edits that preserve subjects across iterative workflows.',
+    'OpenAI',
+    'https://www.google.com/s2/favicons?domain=openai.com&sz=128',
+    'Visual Generation',
+    array['ChatGPT Images 2.5', 'Image Generation', 'Image Editing', 'Multimodal', 'Model Release'],
+    '6 min read',
+    '2026-09-08',
+    'OpenAI',
+    'https://openai.com/zh-Hans-CN/index/introducing-chatgpt-images-2-5/',
+    'assets/img/covers/real/gpt-image-2.5.png',
+    'ChatGPT Images 2.5 article cover',
+    'cover',
+    'published',
+    false
+  ),
+  (
+    'meta-muse-spark-1-3',
+    'Muse Spark 1.3',
+    'Meta presents Muse Spark 1.3 for long-horizon agentic and coding workflows, with reliable tool use, native image, video, and document perception, max-reasoning mode, and a one-million-token context window.',
+    'Meta',
+    'https://www.google.com/s2/favicons?domain=meta.com&sz=128',
+    'Foundation Model',
+    array['Muse Spark 1.3', 'Agentic Coding', 'Tool Use', 'Long Context', 'Multimodal'],
+    '7 min read',
+    '2026-09-02',
+    'Meta',
+    'https://developer.meta.com/ai/models/muse-spark/',
+    'assets/img/covers/real/muse-spark.png',
+    'Meta Muse Spark 1.3 model page cover',
+    'cover',
+    'published',
+    false
+  ),
+  (
+    'openai-navier-stokes-solution',
+    'On the Navier–Stokes Millennium Prize Problem',
+    'OpenAI reports a candidate solution to the Navier–Stokes existence and smoothness problem produced through an 88-hour search with roughly 10,000 collaborating agents, and publishes the proof for independent mathematical review.',
+    'OpenAI',
+    'https://www.google.com/s2/favicons?domain=openai.com&sz=128',
+    'Frontier',
+    array['Navier–Stokes', 'AI for Mathematics', 'Multi-Agent Systems', 'Scientific Discovery', 'Formal Verification'],
+    '10 min read',
+    '2026-09-08',
+    'OpenAI',
+    'https://openai.com/index/navier-stokes-solution/',
+    'assets/img/covers/real/navier-stokes-solution.png',
+    'OpenAI Navier–Stokes solution article cover',
+    'cover',
+    'published',
+    false
+  )
+on conflict (id) do update set
+  title = excluded.title,
+  excerpt = excluded.excerpt,
+  author = excluded.author,
+  author_avatar = excluded.author_avatar,
+  category = excluded.category,
+  tags = excluded.tags,
+  read_time = excluded.read_time,
+  publish_date = excluded.publish_date,
+  source_name = excluded.source_name,
+  url = excluded.url,
+  cover_image = excluded.cover_image,
+  cover_alt = excluded.cover_alt,
+  cover_fit = excluded.cover_fit,
+  status = excluded.status,
+  featured = excluded.featured;
+
+commit;
