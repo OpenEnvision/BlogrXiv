@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Low-resource programming languages</title>
+  <desc id="desc">Editorial illustration of legacy code being transformed into a modern software stack.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10151b"/><stop offset="1" stop-color="#233143"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#5eead4"/><stop offset="1" stop-color="#60a5fa"/></linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <g opacity=".18" stroke="#fff" fill="none"><path d="M0 110h1200M0 225h1200M0 340h1200M0 455h1200M0 570h1200"/><path d="M150 0v675M350 0v675M550 0v675M750 0v675M950 0v675"/></g>
+  <g fill="none" stroke="url(#line)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M205 218l-90 120 90 120"/><path d="M405 218l90 120-90 120"/><path d="M330 174l-60 328"/>
+    <path d="M620 222h330M620 288h245M620 354h360M620 420h195" opacity=".9"/>
+  </g>
+  <circle cx="1035" cy="129" r="52" fill="#f59e0b" opacity=".9"/>
+  <text x="600" y="585" text-anchor="middle" fill="#f8fafc" font-family="Inter,Arial,sans-serif" font-size="44" font-weight="650">Coding Beyond High-Resource Languages</text>
+</svg>

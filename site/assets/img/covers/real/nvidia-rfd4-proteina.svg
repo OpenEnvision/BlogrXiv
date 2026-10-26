@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">RFD4-Proteina protein design</title>
+  <desc id="desc">Editorial molecular illustration for reward-guided protein design.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#061712"/><stop offset="1" stop-color="#12362c"/></linearGradient><linearGradient id="mol" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#76b900"/><stop offset="1" stop-color="#67e8f9"/></linearGradient></defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <g fill="none" stroke="url(#mol)" stroke-width="17" stroke-linecap="round" opacity=".95">
+    <path d="M165 362c90-210 180 190 285-36s184 180 300-34 189 159 288-32"/>
+    <path d="M164 270c100 203 188-176 292 37s191-177 298 37 186-174 284 26" opacity=".62"/>
+  </g>
+  <g fill="#b7f34b"><circle cx="165" cy="362" r="17"/><circle cx="450" cy="326" r="17"/><circle cx="750" cy="292" r="17"/><circle cx="1038" cy="260" r="17"/></g>
+  <g stroke="#d1fae5" stroke-width="3" opacity=".25"><path d="M80 120h1040M80 520h1040"/></g>
+  <text x="600" y="145" text-anchor="middle" fill="#f8fafc" font-family="Inter,Arial,sans-serif" font-size="58" font-weight="700">RFD4-PROTEINA</text>
+  <text x="600" y="585" text-anchor="middle" fill="#d1fae5" font-family="Inter,Arial,sans-serif" font-size="35">Reward-Guided Protein Design at Inference Time</text>
+</svg>

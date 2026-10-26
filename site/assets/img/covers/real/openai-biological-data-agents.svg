@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Distributed AI agents for biological data</title>
+  <desc id="desc">Editorial illustration of distributed agents connecting biological cells and research signals.</desc>
+  <defs><radialGradient id="bg"><stop stop-color="#263b46"/><stop offset="1" stop-color="#0d1419"/></radialGradient><filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <g stroke="#67e8f9" stroke-width="3" opacity=".5"><path d="M170 190L390 300 610 165 820 320 1040 205M190 455L390 300 615 480 820 320 1030 475M610 165l5 315"/></g>
+  <g fill="#a5f3fc" filter="url(#glow)"><circle cx="170" cy="190" r="24"/><circle cx="390" cy="300" r="34"/><circle cx="610" cy="165" r="28"/><circle cx="820" cy="320" r="38"/><circle cx="1040" cy="205" r="25"/><circle cx="190" cy="455" r="30"/><circle cx="615" cy="480" r="42"/><circle cx="1030" cy="475" r="29"/></g>
+  <g fill="#c084fc" opacity=".9"><circle cx="390" cy="300" r="10"/><circle cx="820" cy="320" r="12"/><circle cx="615" cy="480" r="13"/></g>
+  <text x="600" y="595" text-anchor="middle" fill="#f8fafc" font-family="Inter,Arial,sans-serif" font-size="43" font-weight="650">Thousands of Agents, Millions of Cells</text>
+</svg>

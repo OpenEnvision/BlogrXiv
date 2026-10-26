@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Securing frontier model training</title>
+  <desc id="desc">Editorial illustration of a frontier model contained inside layered secure boundaries.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#0b1220"/><stop offset="1" stop-color="#291b3d"/></linearGradient><linearGradient id="shield" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fbbf24"/><stop offset="1" stop-color="#fb7185"/></linearGradient></defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <g fill="none" stroke="#a78bfa" opacity=".4"><rect x="110" y="70" width="980" height="500" rx="48" stroke-width="4"/><rect x="190" y="125" width="820" height="390" rx="40" stroke-width="5"/><rect x="280" y="180" width="640" height="280" rx="32" stroke-width="6"/></g>
+  <path d="M600 205l145 55v105c0 91-57 146-145 181-88-35-145-90-145-181V260z" fill="url(#shield)" opacity=".95"/>
+  <g fill="none" stroke="#101827" stroke-width="16" stroke-linecap="round"><path d="M555 349l32 34 66-78"/></g>
+  <g fill="#c4b5fd"><circle cx="170" cy="338" r="8"/><circle cx="1030" cy="338" r="8"/><circle cx="600" cy="112" r="8"/></g>
+  <text x="600" y="624" text-anchor="middle" fill="#f8fafc" font-family="Inter,Arial,sans-serif" font-size="43" font-weight="650">Securing Frontier Training Environments</text>
+</svg>
