@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101517"/><stop offset="1" stop-color="#243235"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#79e2c3" stop-opacity=".35"/><stop offset="1" stop-color="#79e2c3" stop-opacity="0"/></radialGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="24" flood-opacity=".35"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/><circle cx="1160" cy="420" r="520" fill="url(#glow)"/>
+  <g opacity=".18" stroke="#c4d8d4" stroke-width="2"><path d="M0 170h1600M0 300h1600M0 430h1600M0 560h1600M0 690h1600"/><path d="M220 0v900M450 0v900M680 0v900M910 0v900M1140 0v900M1370 0v900"/></g>
+  <g transform="translate(890 170)" filter="url(#shadow)"><path d="M250 0 480 92v192c0 173-99 302-230 382C119 586 20 457 20 284V92Z" fill="#172225" stroke="#8af0d2" stroke-width="12"/><path d="m140 315 72 72 151-171" fill="none" stroke="#8af0d2" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <g fill="#f6f1e8"><text x="110" y="165" font-family="Arial,sans-serif" font-size="34" letter-spacing="8">OPENAI SECURITY</text><text x="110" y="300" font-family="Arial,sans-serif" font-size="78" font-weight="700">A Thousand Fewer</text><text x="110" y="392" font-family="Arial,sans-serif" font-size="78" font-weight="700">Paths to Root</text></g>
+  <g transform="translate(110 520)" font-family="monospace" font-size="28"><rect width="600" height="205" rx="24" fill="#0a0f10" stroke="#516665"/><text x="36" y="58" fill="#8af0d2">kernel.audit.scan()</text><text x="36" y="108" fill="#c4d8d4">validated patches: 948</text><text x="36" y="158" fill="#c4d8d4">human review: required</text></g>
+</svg>
