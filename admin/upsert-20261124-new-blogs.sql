@@ -1,0 +1,222 @@
+-- Add fifteen verified AI technical posts published November 16-23, 2026.
+-- November 24 releases are not included without verified original-source dates.
+begin;
+
+insert into public.blogs (
+  id, title, excerpt, author, author_avatar, category, tags, read_time,
+  publish_date, source_name, url, cover_image, cover_alt, cover_fit, status, featured
+)
+values
+  (
+    'deepmind-verified-quantum-algorithms',
+    'Finding Faster Quantum Algorithms with Agents and Formal Verification',
+    'Google DeepMind and Google Quantum AI use teams of Gemini agents to propose cheaper quantum programs, admitting results only after Lean checks their correctness; the reported improvements concern algorithmic resource estimates, not runs on quantum hardware.',
+    'Sergey Shirobokov et al.',
+    'https://www.google.com/s2/favicons?domain=deepmind.google&sz=128',
+    'Frontier',
+    array['AI for Science', 'Quantum Algorithms', 'Formal Verification', 'Lean', 'AI Agents'],
+    '10 min read', '2026-11-23', 'Google DeepMind',
+    'https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/',
+    'assets/img/covers/cover-research-adjudication.svg',
+    'Formal verification of agent-designed quantum algorithms', 'cover', 'published', false
+  ),
+  (
+    'anthropic-neuron-basis-applications',
+    'Returning to the Neuron Basis for Interpretability, Part 2: Using Neurons For Safety Applications',
+    'Anthropic compares native MLP neurons with sparse autoencoder features for concept detection and steering: on 500 AxBench concepts, neuron-based detection reaches 0.903 AUROC versus 0.888 for the strongest tested SAE baseline.',
+    'Jasmine Shone and Lisa Dunlap',
+    'https://www.google.com/s2/favicons?domain=anthropic.com&sz=128',
+    'Trustworthy AI',
+    array['Mechanistic Interpretability', 'Neurons', 'Sparse Autoencoders', 'Concept Detection', 'Model Safety'],
+    '15 min read', '2026-11-23', 'Anthropic Alignment Science',
+    'https://alignment.anthropic.com/2026/neuron-basis-applications/',
+    'assets/img/covers/cover-circuit-tracing.svg',
+    'Interpreting model behavior through individual neurons', 'cover', 'published', false
+  ),
+  (
+    'anthropic-neuron-basis-theory',
+    'Returning to the Neuron Basis for Interpretability, Part 1: Answering Three Objections',
+    'Anthropic tests three objections to interpreting individual MLP neurons with causal interventions, cross-layer output directions, and fact-recall studies, finding that distributed representations can still contain readable, meaningful components.',
+    'Jasmine Shone and Lisa Dunlap',
+    'https://www.google.com/s2/favicons?domain=anthropic.com&sz=128',
+    'Trustworthy AI',
+    array['Mechanistic Interpretability', 'MLP Neurons', 'Causal Interventions', 'Superposition', 'Model Analysis'],
+    '15 min read', '2026-11-23', 'Anthropic Alignment Science',
+    'https://alignment.anthropic.com/2026/neuron-basis-theory/',
+    'assets/img/covers/cover-interpretability-geometry.svg',
+    'Studying neuron output directions across model layers', 'cover', 'published', false
+  ),
+  (
+    'huggingface-agentic-evaluation-guide',
+    'How to Build and Maintain an Agentic Evaluation',
+    'Hugging Face develops an eight-task Raman-spectrum agent evaluation to show why reference solutions, shortcut tests, trace inspection, repeated runs, and versioned graders matter: pass@3 reaches 7/8 while pass^3 is only 1/8.',
+    'Avijit Ghosh, Ben Burtenshaw, and Irene Solaiman',
+    'https://www.google.com/s2/favicons?domain=huggingface.co&sz=128',
+    'How to Research',
+    array['Agent Evaluation', 'Benchmark Design', 'Grader Validation', 'Pass@k', 'Reproducibility'],
+    '15 min read', '2026-11-23', 'Hugging Face',
+    'https://huggingface.co/blog/agentic-evals',
+    'assets/img/covers/cover-evals-tracing.svg',
+    'Auditing agent evaluation tasks and trajectories', 'cover', 'published', false
+  ),
+  (
+    'openai-medchembench',
+    'MedChemBench: Benchmarking AI for Medicinal Chemistry',
+    'OpenAI introduces 99 medicinal-chemistry problems from 117 papers and patents, covering 761 molecular structures and testing structure reconstruction, evidence-based reasoning, compound selection, and property prediction; published-source exposure remains a limitation.',
+    'OpenAI',
+    'https://www.google.com/s2/favicons?domain=openai.com&sz=128',
+    'Frontier',
+    array['MedChemBench', 'AI for Science', 'Medicinal Chemistry', 'Molecular Reasoning', 'Benchmarking'],
+    '10 min read', '2026-11-20', 'OpenAI',
+    'https://openai.com/index/introducing-medchembench/',
+    'assets/img/covers/cover-research-adjudication.svg',
+    'Benchmarking molecular reasoning against experimental evidence', 'cover', 'published', false
+  ),
+  (
+    'huggingface-harness-adapters-at-scale',
+    'Introducing Harness Adapters: Adapt Your Favorite Model to Your Harness',
+    'Hugging Face trains separate LoRA adapters for Qwen3.8-27B inside Pi, OpenCode, and Hermes Agent using verifiable coding tasks, then merges them; within each harness, adapters improve task success while cutting tool calls on tasks both versions solve.',
+    'Younes B et al.',
+    'https://www.google.com/s2/favicons?domain=huggingface.co&sz=128',
+    'AI Agents',
+    array['Harness Adapters', 'Agentic RL', 'LoRA', 'Coding Agents', 'Tool Efficiency'],
+    '20 min read', '2026-11-20', 'Hugging Face',
+    'https://huggingface.co/blog/harness-adapters-at-scale',
+    'assets/img/covers/cover-post-training-rl.svg',
+    'Training agent-specific LoRA adapters inside deployed harnesses', 'cover', 'published', false
+  ),
+  (
+    'google-duplex-gemini-calls',
+    'How Google Duplex Evolved to Also Call Businesses for You in Gemini',
+    'Google Research traces Duplex from task-specific recurrent models through a hybrid language-model and state-tracking design to Gemini-driven phone agents, explaining streaming speech, real-time turn-taking, and how free-text task descriptions replace per-domain dialog models.',
+    'Yossi Matias, Yaniv Leviathan, and Janet Zhou',
+    'https://www.google.com/s2/favicons?domain=research.google&sz=128',
+    'AI Agents',
+    array['Duplex', 'Voice Agents', 'Speech Processing', 'Real-Time AI', 'Gemini'],
+    '8 min read', '2026-11-20', 'Google Research',
+    'https://www.research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/',
+    'assets/img/covers/cover-agent-runtime.svg',
+    'Evolution of real-time voice agents for telephone tasks', 'cover', 'published', false
+  ),
+  (
+    'google-streaming-diloco-maxtext',
+    'Distributed LLM Training Across Metros: Streaming DiLoCo in MaxText',
+    'Google streams layer-wise model fragments between geographically separated TPU training groups while local AdamW steps continue; a Qwen3-32B test reports 67 GB of cross-slice traffic per 65 steps versus 4,258.8 GB for data parallelism.',
+    'Mohit Khatwani et al.',
+    'https://www.google.com/s2/favicons?domain=developers.googleblog.com&sz=128',
+    'Efficient AI',
+    array['Streaming DiLoCo', 'Distributed Training', 'MaxText', 'TPU', 'Communication Efficiency'],
+    '12 min read', '2026-11-19', 'Google Developers Blog',
+    'https://developers.googleblog.com/en/distributed-llm-training-across-metros-streaming-diloco-in-maxtext/',
+    'assets/img/covers/cover-interconnects-open.svg',
+    'Streaming model parameter fragments across training clusters', 'cover', 'published', false
+  ),
+  (
+    'openai-research-acceleration-jagged-frontier',
+    'Research Acceleration: The Jagged Frontier',
+    'OpenAI measures coding agents on internal research tasks: estimated autonomous completion rises from 23% to 46% for two-to-four-hour tasks between March and October 2026, but success varies sharply by task and changes in the delegated task mix limit causal claims.',
+    'OpenAI',
+    'https://www.google.com/s2/favicons?domain=openai.com&sz=128',
+    'Research Craft',
+    array['Research Acceleration', 'Coding Agents', 'Task Evaluation', 'Human Oversight', 'AI for Research'],
+    '15 min read', '2026-11-18', 'OpenAI',
+    'https://openai.com/index/research-acceleration-jagged-frontier/',
+    'assets/img/covers/cover-rdi-agents.svg',
+    'Measuring uneven coding-agent performance across research tasks', 'cover', 'published', false
+  ),
+  (
+    'openai-ai-chip-design',
+    'Advancing Chip Design with OpenAI Models',
+    'OpenAI describes model-generated SystemVerilog RTL changes checked with simulation and hardware design tools, including estimated area reductions for its Jalapeño chip and partner-validated improvements to selected AMD chip modules.',
+    'OpenAI',
+    'https://www.google.com/s2/favicons?domain=openai.com&sz=128',
+    'Frontier',
+    array['AI for Chip Design', 'SystemVerilog', 'Hardware Optimization', 'RISC-V', 'AI for Science'],
+    '12 min read', '2026-11-18', 'OpenAI',
+    'https://openai.com/index/advancing-chip-design-with-our-models/',
+    'assets/img/covers/cover-dao-kernels.svg',
+    'Optimizing chip circuitry with model-generated RTL changes', 'cover', 'published', false
+  ),
+  (
+    'meta-agents-ads-ranking-ml',
+    'How Meta Uses AI Agents to Scale ML Innovations Across Ads Ranking Models',
+    'Meta combines shared model templates, a knowledge base, and agents that discover, adapt, and test proven ranking-model improvements across a model fleet; reported agent-assisted productivity gains depend on earlier standardization and human review.',
+    'Rahul Suresh et al.',
+    'https://www.google.com/s2/favicons?domain=engineering.fb.com&sz=128',
+    'AI Agents',
+    array['ML Engineering', 'Ranking Models', 'AI Agents', 'Model Templates', 'Experimentation'],
+    '12 min read', '2026-11-18', 'Meta Engineering',
+    'https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models/',
+    'assets/img/covers/cover-mlm-agents.svg',
+    'Agents propagating ML innovations across ranking models', 'cover', 'published', false
+  ),
+  (
+    'google-gemini-4-neon',
+    'Introducing Gemini 4 Neon',
+    'Google positions Neon between Gemini 4 Carbon and Hydrogen for complex coding and knowledge work, reporting 58.6 on the Artificial Analysis Coding Agent Index and four adjustable reasoning depths; its underlying architecture is not disclosed.',
+    'Koray Kavukcuoglu',
+    'https://www.google.com/s2/favicons?domain=google.com&sz=128',
+    'Foundation Model',
+    array['Gemini 4 Neon', 'Coding Agents', 'Reasoning Models', 'Model Routing', 'Efficient AI'],
+    '10 min read', '2026-11-18', 'Google',
+    'https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/',
+    'assets/img/covers/foundation-model.svg',
+    'Gemini 4 Neon model for reasoning and coding workflows', 'cover', 'published', false
+  ),
+  (
+    'huggingface-moe-expert-streaming',
+    '180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers',
+    'Tarek Ziadé streams quantized MoE experts and an n-gram table from SSD through a bounded cache on a 32GB Mac, reporting 13.9 generated tokens per second for a 180B-parameter model in a single-machine test.',
+    'Tarek Ziadé',
+    'https://www.google.com/s2/favicons?domain=huggingface.co&sz=128',
+    'Efficient AI',
+    array['MoE Inference', 'Expert Streaming', 'Transformers', 'SSD Offload', 'Local AI'],
+    '12 min read', '2026-11-18', 'Hugging Face',
+    'https://huggingface.co/blog/moe-expert-streaming',
+    'assets/img/covers/cover-mlm-compression.svg',
+    'Streaming mixture-of-experts weights into limited device memory', 'cover', 'published', false
+  ),
+  (
+    'dharma-finetuning-time-prediction',
+    'Why Your Fine-Tuning Job Takes Longer Than the FLOPs Say',
+    'Dharma-AI analyzes 272 production SFT jobs on H200 GPUs: a CatBoost estimator using pre-run configuration predicts elapsed time with 1.71-hour mean absolute error versus 12.41 hours for its best FLOPs baseline, within the same environment.',
+    'Bruno Duarte et al.',
+    'https://www.google.com/s2/favicons?domain=huggingface.co&sz=128',
+    'Efficient AI',
+    array['Fine-Tuning', 'Training Time', 'FLOPs', 'Capacity Planning', 'SFT'],
+    '8 min read', '2026-11-18', 'Dharma-AI on Hugging Face',
+    'https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time',
+    'assets/img/covers/cover-mlm-observability.svg',
+    'Predicting end-to-end fine-tuning time beyond FLOPs estimates', 'cover', 'published', false
+  ),
+  (
+    'microsoft-tokeneconomizer-coding-agents',
+    'TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient',
+    'Microsoft Research uses completed agent traces to build compact repository micro-skills, prune unneeded tools, and detect repeated failures; across 277 SWE-Bench tasks, its plugin cuts agent cost by 18.4%–30.9% while broadly preserving success.',
+    'Aaron J. Li et al.',
+    'https://www.google.com/s2/favicons?domain=microsoft.com&sz=128',
+    'Efficient AI',
+    array['Coding Agents', 'Token Efficiency', 'Agent Memory', 'Micro-Skills', 'Tool Selection'],
+    '12 min read', '2026-11-16', 'Microsoft Research',
+    'https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/',
+    'assets/img/covers/cover-agent-memory.svg',
+    'Reusing coding-agent experience to reduce token costs', 'cover', 'published', false
+  )
+on conflict (id) do update set
+  title = excluded.title,
+  excerpt = excluded.excerpt,
+  author = excluded.author,
+  author_avatar = excluded.author_avatar,
+  category = excluded.category,
+  tags = excluded.tags,
+  read_time = excluded.read_time,
+  publish_date = excluded.publish_date,
+  source_name = excluded.source_name,
+  url = excluded.url,
+  cover_image = excluded.cover_image,
+  cover_alt = excluded.cover_alt,
+  cover_fit = excluded.cover_fit,
+  status = excluded.status,
+  featured = excluded.featured;
+
+commit;
