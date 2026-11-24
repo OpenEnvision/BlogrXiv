@@ -93,6 +93,11 @@
     transition: transform 220ms ease;
 }
 
+:root:root .blog-card .blog-cover-image.is-contain {
+    object-fit: contain;
+    background: #fff;
+}
+
 :root:root .blog-card:hover .blog-cover-image {
     filter: none;
     transform: scale(1.015);

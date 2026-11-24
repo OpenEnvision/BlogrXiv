@@ -3460,8 +3460,8 @@ class BlogXiv {
                 publishDate: '2026-11-23',
                 sourceName: 'Google DeepMind',
                 url: 'https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/',
-                coverImage: 'assets/img/covers/cover-research-adjudication.svg',
-                coverAlt: 'Formal verification of agent-designed quantum algorithms',
+                coverImage: 'assets/img/covers/real/deepmind-verified-quantum-algorithms.webp',
+                coverAlt: 'Google DeepMind original image for formally verified quantum algorithms',
                 coverFit: 'cover'
             },
             {
@@ -3476,9 +3476,9 @@ class BlogXiv {
                 publishDate: '2026-11-23',
                 sourceName: 'Anthropic Alignment Science',
                 url: 'https://alignment.anthropic.com/2026/neuron-basis-applications/',
-                coverImage: 'assets/img/covers/cover-circuit-tracing.svg',
-                coverAlt: 'Interpreting model behavior through individual neurons',
-                coverFit: 'cover'
+                coverImage: 'assets/img/covers/real/anthropic-neuron-basis-applications.png',
+                coverAlt: 'Original AxBench neuron detection comparison chart from Anthropic',
+                coverFit: 'contain'
             },
             {
                 id: 'anthropic-neuron-basis-theory',
@@ -3492,9 +3492,9 @@ class BlogXiv {
                 publishDate: '2026-11-23',
                 sourceName: 'Anthropic Alignment Science',
                 url: 'https://alignment.anthropic.com/2026/neuron-basis-theory/',
-                coverImage: 'assets/img/covers/cover-interpretability-geometry.svg',
-                coverAlt: 'Studying neuron output directions across model layers',
-                coverFit: 'cover'
+                coverImage: 'assets/img/covers/real/anthropic-neuron-basis-theory.png',
+                coverAlt: 'Original chart of moon-selective neuron groups from Anthropic',
+                coverFit: 'contain'
             },
             {
                 id: 'huggingface-agentic-evaluation-guide',
@@ -3508,8 +3508,8 @@ class BlogXiv {
                 publishDate: '2026-11-23',
                 sourceName: 'Hugging Face',
                 url: 'https://huggingface.co/blog/agentic-evals',
-                coverImage: 'assets/img/covers/cover-evals-tracing.svg',
-                coverAlt: 'Auditing agent evaluation tasks and trajectories',
+                coverImage: 'assets/img/covers/real/huggingface-agentic-evaluation-guide.png',
+                coverAlt: 'Original Hugging Face agentic evaluation article thumbnail',
                 coverFit: 'cover'
             },
             {
@@ -3524,8 +3524,8 @@ class BlogXiv {
                 publishDate: '2026-11-20',
                 sourceName: 'OpenAI',
                 url: 'https://openai.com/index/introducing-medchembench/',
-                coverImage: 'assets/img/covers/cover-research-adjudication.svg',
-                coverAlt: 'Benchmarking molecular reasoning against experimental evidence',
+                coverImage: 'assets/img/covers/real/openai-medchembench.png',
+                coverAlt: 'Original OpenAI MedChemBench article cover',
                 coverFit: 'cover'
             },
             {
@@ -3540,8 +3540,8 @@ class BlogXiv {
                 publishDate: '2026-11-20',
                 sourceName: 'Hugging Face',
                 url: 'https://huggingface.co/blog/harness-adapters-at-scale',
-                coverImage: 'assets/img/covers/cover-post-training-rl.svg',
-                coverAlt: 'Training agent-specific LoRA adapters inside deployed harnesses',
+                coverImage: 'assets/img/covers/real/huggingface-harness-adapters-at-scale.png',
+                coverAlt: 'Original Hugging Face harness adapters article thumbnail',
                 coverFit: 'cover'
             },
             {
@@ -3556,8 +3556,8 @@ class BlogXiv {
                 publishDate: '2026-11-20',
                 sourceName: 'Google Research',
                 url: 'https://www.research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/',
-                coverImage: 'assets/img/covers/cover-agent-runtime.svg',
-                coverAlt: 'Evolution of real-time voice agents for telephone tasks',
+                coverImage: 'assets/img/covers/real/google-duplex-gemini-calls.png',
+                coverAlt: 'Original Google Research Duplex in Gemini article illustration',
                 coverFit: 'cover'
             },
             {
@@ -3572,8 +3572,8 @@ class BlogXiv {
                 publishDate: '2026-11-19',
                 sourceName: 'Google Developers Blog',
                 url: 'https://developers.googleblog.com/en/distributed-llm-training-across-metros-streaming-diloco-in-maxtext/',
-                coverImage: 'assets/img/covers/cover-interconnects-open.svg',
-                coverAlt: 'Streaming model parameter fragments across training clusters',
+                coverImage: 'assets/img/covers/real/google-streaming-diloco-maxtext.jpg',
+                coverAlt: 'Original Google Developers Blog Streaming DiLoCo header',
                 coverFit: 'cover'
             },
             {
@@ -3588,8 +3588,8 @@ class BlogXiv {
                 publishDate: '2026-11-18',
                 sourceName: 'OpenAI',
                 url: 'https://openai.com/index/research-acceleration-jagged-frontier/',
-                coverImage: 'assets/img/covers/cover-rdi-agents.svg',
-                coverAlt: 'Measuring uneven coding-agent performance across research tasks',
+                coverImage: 'assets/img/covers/real/openai-research-acceleration-jagged-frontier.png',
+                coverAlt: 'Original OpenAI research acceleration report cover',
                 coverFit: 'cover'
             },
             {
@@ -3604,8 +3604,8 @@ class BlogXiv {
                 publishDate: '2026-11-18',
                 sourceName: 'OpenAI',
                 url: 'https://openai.com/index/advancing-chip-design-with-our-models/',
-                coverImage: 'assets/img/covers/cover-dao-kernels.svg',
-                coverAlt: 'Optimizing chip circuitry with model-generated RTL changes',
+                coverImage: 'assets/img/covers/real/openai-ai-chip-design.png',
+                coverAlt: 'Original OpenAI AI-assisted chip design article cover',
                 coverFit: 'cover'
             },
             {
@@ -3620,8 +3620,8 @@ class BlogXiv {
                 publishDate: '2026-11-18',
                 sourceName: 'Meta Engineering',
                 url: 'https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models/',
-                coverImage: 'assets/img/covers/cover-mlm-agents.svg',
-                coverAlt: 'Agents propagating ML innovations across ranking models',
+                coverImage: 'assets/img/covers/real/meta-agents-ads-ranking-ml.png',
+                coverAlt: 'Original Meta Engineering image for ML innovation propagation',
                 coverFit: 'cover'
             },
             {
@@ -3636,8 +3636,8 @@ class BlogXiv {
                 publishDate: '2026-11-18',
                 sourceName: 'Google',
                 url: 'https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/',
-                coverImage: 'assets/img/covers/foundation-model.svg',
-                coverAlt: 'Gemini 4 Neon model for reasoning and coding workflows',
+                coverImage: 'assets/img/covers/real/google-gemini-4-neon.png',
+                coverAlt: 'Original Google Gemini 4 Neon blog header',
                 coverFit: 'cover'
             },
             {
@@ -3652,8 +3652,8 @@ class BlogXiv {
                 publishDate: '2026-11-18',
                 sourceName: 'Hugging Face',
                 url: 'https://huggingface.co/blog/moe-expert-streaming',
-                coverImage: 'assets/img/covers/cover-mlm-compression.svg',
-                coverAlt: 'Streaming mixture-of-experts weights into limited device memory',
+                coverImage: 'assets/img/covers/real/huggingface-moe-expert-streaming.png',
+                coverAlt: 'Original Hugging Face MoE expert streaming article thumbnail',
                 coverFit: 'cover'
             },
             {
@@ -3668,8 +3668,8 @@ class BlogXiv {
                 publishDate: '2026-11-18',
                 sourceName: 'Dharma-AI on Hugging Face',
                 url: 'https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time',
-                coverImage: 'assets/img/covers/cover-mlm-observability.svg',
-                coverAlt: 'Predicting end-to-end fine-tuning time beyond FLOPs estimates',
+                coverImage: 'assets/img/covers/real/dharma-finetuning-time-prediction.png',
+                coverAlt: 'Original Dharma-AI fine-tuning duration article image',
                 coverFit: 'cover'
             },
             {
@@ -3684,8 +3684,8 @@ class BlogXiv {
                 publishDate: '2026-11-16',
                 sourceName: 'Microsoft Research',
                 url: 'https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/',
-                coverImage: 'assets/img/covers/cover-agent-memory.svg',
-                coverAlt: 'Reusing coding-agent experience to reduce token costs',
+                coverImage: 'assets/img/covers/real/microsoft-tokeneconomizer-coding-agents.jpg',
+                coverAlt: 'Original Microsoft Research TokenEconomizer article image',
                 coverFit: 'cover'
             },
             {

@@ -17,8 +17,8 @@ values
     array['AI for Science', 'Quantum Algorithms', 'Formal Verification', 'Lean', 'AI Agents'],
     '10 min read', '2026-11-23', 'Google DeepMind',
     'https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/',
-    'assets/img/covers/cover-research-adjudication.svg',
-    'Formal verification of agent-designed quantum algorithms', 'cover', 'published', false
+    'assets/img/covers/real/deepmind-verified-quantum-algorithms.webp',
+    'Google DeepMind original image for formally verified quantum algorithms', 'cover', 'published', false
   ),
   (
     'anthropic-neuron-basis-applications',
@@ -30,8 +30,8 @@ values
     array['Mechanistic Interpretability', 'Neurons', 'Sparse Autoencoders', 'Concept Detection', 'Model Safety'],
     '15 min read', '2026-11-23', 'Anthropic Alignment Science',
     'https://alignment.anthropic.com/2026/neuron-basis-applications/',
-    'assets/img/covers/cover-circuit-tracing.svg',
-    'Interpreting model behavior through individual neurons', 'cover', 'published', false
+    'assets/img/covers/real/anthropic-neuron-basis-applications.png',
+    'Original AxBench neuron detection comparison chart from Anthropic', 'contain', 'published', false
   ),
   (
     'anthropic-neuron-basis-theory',
@@ -43,8 +43,8 @@ values
     array['Mechanistic Interpretability', 'MLP Neurons', 'Causal Interventions', 'Superposition', 'Model Analysis'],
     '15 min read', '2026-11-23', 'Anthropic Alignment Science',
     'https://alignment.anthropic.com/2026/neuron-basis-theory/',
-    'assets/img/covers/cover-interpretability-geometry.svg',
-    'Studying neuron output directions across model layers', 'cover', 'published', false
+    'assets/img/covers/real/anthropic-neuron-basis-theory.png',
+    'Original chart of moon-selective neuron groups from Anthropic', 'contain', 'published', false
   ),
   (
     'huggingface-agentic-evaluation-guide',
@@ -56,8 +56,8 @@ values
     array['Agent Evaluation', 'Benchmark Design', 'Grader Validation', 'Pass@k', 'Reproducibility'],
     '15 min read', '2026-11-23', 'Hugging Face',
     'https://huggingface.co/blog/agentic-evals',
-    'assets/img/covers/cover-evals-tracing.svg',
-    'Auditing agent evaluation tasks and trajectories', 'cover', 'published', false
+    'assets/img/covers/real/huggingface-agentic-evaluation-guide.png',
+    'Original Hugging Face agentic evaluation article thumbnail', 'cover', 'published', false
   ),
   (
     'openai-medchembench',
@@ -69,8 +69,8 @@ values
     array['MedChemBench', 'AI for Science', 'Medicinal Chemistry', 'Molecular Reasoning', 'Benchmarking'],
     '10 min read', '2026-11-20', 'OpenAI',
     'https://openai.com/index/introducing-medchembench/',
-    'assets/img/covers/cover-research-adjudication.svg',
-    'Benchmarking molecular reasoning against experimental evidence', 'cover', 'published', false
+    'assets/img/covers/real/openai-medchembench.png',
+    'Original OpenAI MedChemBench article cover', 'cover', 'published', false
   ),
   (
     'huggingface-harness-adapters-at-scale',
@@ -82,8 +82,8 @@ values
     array['Harness Adapters', 'Agentic RL', 'LoRA', 'Coding Agents', 'Tool Efficiency'],
     '20 min read', '2026-11-20', 'Hugging Face',
     'https://huggingface.co/blog/harness-adapters-at-scale',
-    'assets/img/covers/cover-post-training-rl.svg',
-    'Training agent-specific LoRA adapters inside deployed harnesses', 'cover', 'published', false
+    'assets/img/covers/real/huggingface-harness-adapters-at-scale.png',
+    'Original Hugging Face harness adapters article thumbnail', 'cover', 'published', false
   ),
   (
     'google-duplex-gemini-calls',
@@ -95,8 +95,8 @@ values
     array['Duplex', 'Voice Agents', 'Speech Processing', 'Real-Time AI', 'Gemini'],
     '8 min read', '2026-11-20', 'Google Research',
     'https://www.research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/',
-    'assets/img/covers/cover-agent-runtime.svg',
-    'Evolution of real-time voice agents for telephone tasks', 'cover', 'published', false
+    'assets/img/covers/real/google-duplex-gemini-calls.png',
+    'Original Google Research Duplex in Gemini article illustration', 'cover', 'published', false
   ),
   (
     'google-streaming-diloco-maxtext',
@@ -108,8 +108,8 @@ values
     array['Streaming DiLoCo', 'Distributed Training', 'MaxText', 'TPU', 'Communication Efficiency'],
     '12 min read', '2026-11-19', 'Google Developers Blog',
     'https://developers.googleblog.com/en/distributed-llm-training-across-metros-streaming-diloco-in-maxtext/',
-    'assets/img/covers/cover-interconnects-open.svg',
-    'Streaming model parameter fragments across training clusters', 'cover', 'published', false
+    'assets/img/covers/real/google-streaming-diloco-maxtext.jpg',
+    'Original Google Developers Blog Streaming DiLoCo header', 'cover', 'published', false
   ),
   (
     'openai-research-acceleration-jagged-frontier',
@@ -121,8 +121,8 @@ values
     array['Research Acceleration', 'Coding Agents', 'Task Evaluation', 'Human Oversight', 'AI for Research'],
     '15 min read', '2026-11-18', 'OpenAI',
     'https://openai.com/index/research-acceleration-jagged-frontier/',
-    'assets/img/covers/cover-rdi-agents.svg',
-    'Measuring uneven coding-agent performance across research tasks', 'cover', 'published', false
+    'assets/img/covers/real/openai-research-acceleration-jagged-frontier.png',
+    'Original OpenAI research acceleration report cover', 'cover', 'published', false
   ),
   (
     'openai-ai-chip-design',
@@ -134,8 +134,8 @@ values
     array['AI for Chip Design', 'SystemVerilog', 'Hardware Optimization', 'RISC-V', 'AI for Science'],
     '12 min read', '2026-11-18', 'OpenAI',
     'https://openai.com/index/advancing-chip-design-with-our-models/',
-    'assets/img/covers/cover-dao-kernels.svg',
-    'Optimizing chip circuitry with model-generated RTL changes', 'cover', 'published', false
+    'assets/img/covers/real/openai-ai-chip-design.png',
+    'Original OpenAI AI-assisted chip design article cover', 'cover', 'published', false
   ),
   (
     'meta-agents-ads-ranking-ml',
@@ -147,8 +147,8 @@ values
     array['ML Engineering', 'Ranking Models', 'AI Agents', 'Model Templates', 'Experimentation'],
     '12 min read', '2026-11-18', 'Meta Engineering',
     'https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models/',
-    'assets/img/covers/cover-mlm-agents.svg',
-    'Agents propagating ML innovations across ranking models', 'cover', 'published', false
+    'assets/img/covers/real/meta-agents-ads-ranking-ml.png',
+    'Original Meta Engineering image for ML innovation propagation', 'cover', 'published', false
   ),
   (
     'google-gemini-4-neon',
@@ -160,8 +160,8 @@ values
     array['Gemini 4 Neon', 'Coding Agents', 'Reasoning Models', 'Model Routing', 'Efficient AI'],
     '10 min read', '2026-11-18', 'Google',
     'https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/',
-    'assets/img/covers/foundation-model.svg',
-    'Gemini 4 Neon model for reasoning and coding workflows', 'cover', 'published', false
+    'assets/img/covers/real/google-gemini-4-neon.png',
+    'Original Google Gemini 4 Neon blog header', 'cover', 'published', false
   ),
   (
     'huggingface-moe-expert-streaming',
@@ -173,8 +173,8 @@ values
     array['MoE Inference', 'Expert Streaming', 'Transformers', 'SSD Offload', 'Local AI'],
     '12 min read', '2026-11-18', 'Hugging Face',
     'https://huggingface.co/blog/moe-expert-streaming',
-    'assets/img/covers/cover-mlm-compression.svg',
-    'Streaming mixture-of-experts weights into limited device memory', 'cover', 'published', false
+    'assets/img/covers/real/huggingface-moe-expert-streaming.png',
+    'Original Hugging Face MoE expert streaming article thumbnail', 'cover', 'published', false
   ),
   (
     'dharma-finetuning-time-prediction',
@@ -186,8 +186,8 @@ values
     array['Fine-Tuning', 'Training Time', 'FLOPs', 'Capacity Planning', 'SFT'],
     '8 min read', '2026-11-18', 'Dharma-AI on Hugging Face',
     'https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time',
-    'assets/img/covers/cover-mlm-observability.svg',
-    'Predicting end-to-end fine-tuning time beyond FLOPs estimates', 'cover', 'published', false
+    'assets/img/covers/real/dharma-finetuning-time-prediction.png',
+    'Original Dharma-AI fine-tuning duration article image', 'cover', 'published', false
   ),
   (
     'microsoft-tokeneconomizer-coding-agents',
@@ -199,8 +199,8 @@ values
     array['Coding Agents', 'Token Efficiency', 'Agent Memory', 'Micro-Skills', 'Tool Selection'],
     '12 min read', '2026-11-16', 'Microsoft Research',
     'https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/',
-    'assets/img/covers/cover-agent-memory.svg',
-    'Reusing coding-agent experience to reduce token costs', 'cover', 'published', false
+    'assets/img/covers/real/microsoft-tokeneconomizer-coding-agents.jpg',
+    'Original Microsoft Research TokenEconomizer article image', 'cover', 'published', false
   )
 on conflict (id) do update set
   title = excluded.title,
